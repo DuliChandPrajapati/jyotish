@@ -1,0 +1,136 @@
+a{
+	color:$rashi-text-color;
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:none;
+	color:$rashi-text-color;
+}
+
+.navbar{
+	margin-bottom:0px;
+	border-radius:0px;
+	.navbar-header {
+		margin:12px 0;
+		padding:12px 0;
+			.menu-icon{
+				display: inline-block;
+				line-height:35px;
+				.glyphicon{
+			        display: inline-block;
+			        font-size:$glyphicon-font-size;
+			    }
+				.glyphicon.glyphicon-search {
+			    	top: 7px;
+				}
+				.navbar-toggle{
+			    	border-radius: 0 !important;
+				    float: left;
+				     margin:0 0 0;
+				    padding: 10px 0px 0px;
+				    border:none !important;
+				    &:hover{
+				    	border:none !important
+				    }
+			    }
+			    .border {
+				    border-right: 1px solid #000;
+				    padding: 0 10px 8px 0;
+				    margin:0 10px 0 0;
+				    color:$text-color;
+				}
+			}
+		.logo {
+		    display:inline-block;
+		    text-align:center;
+		}
+	}
+	.navbar-right {
+		margin-top: 25px;
+		margin-right:30px;
+		line-height:35px;
+			.glyphicon{
+				font-size:$glyphicon-font-size;
+			}
+			.nav > li{
+				display:inline-block;
+					&.border{
+					border-right: 1px solid #000;
+				    margin: 0 10px 0 0;
+					padding: 0 10px;
+				    color:$text-color;
+				    line-height:35px;
+				}
+				> a{
+					padding:2px 0;
+				}
+			}
+	}
+	.navbar-nav > li > a{
+		.line{
+			padding: 0 15px;
+		}
+	}
+}
+.border-box{
+
+	border:#f2f2f2 solid 1px;
+	border-radius:2px;
+	p{
+		text-align:justify;
+	}
+}
+.borderHeading
+{
+	border-bottom:2px $text-color solid;
+    margin-top: 20px;
+    padding-bottom:20px;
+    padding-top:20px;
+}
+.heading
+	{
+		font-size:$font-heading-size;
+		font-weight:400;
+		line-height:18px;
+	}
+.rashi-hover{
+	padding:15px 0;
+	&:hover
+	{
+	color:$rashi-text-color;
+	padding:15px 0;
+	}	
+}
+.img-polaroid{
+	margin:0 auto;
+}
+
+.footerdown{
+	background:#000;
+}
+
+.conatact{
+	li{
+		display:inline-block;
+		padding:20px 0;
+	}
+	& a{
+		color:#fff;
+	}
+}
+.share{
+		span{
+			color: #fff;
+		    display: inline-block;
+		    font-size:$font-subheading-size;
+	    }
+    ul{
+	    display: inline-block;
+	    margin-top:10px;
+	    padding: 0;
+	    li{
+	    	display: inline-block;
+	    }
+    }
+	
+}

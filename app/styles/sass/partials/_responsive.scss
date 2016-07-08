@@ -1,0 +1,50 @@
+/* responsive.css -------start*/
+@media only screen and (max-width:767px) {
+	.top{
+		margin-top:10px;
+	}	
+}
+
+@media only screen and (max-width:480px) {
+	.navbar-right{
+		margin-right:10px !important;
+		.nav > li{
+			&.border{
+			    margin: 0 0px 0 0px !important;
+    			padding: 0 5px !important;
+			}
+		}
+	}
+}
+@media only screen and (max-width:360px) {
+	.navbar-right{
+		margin-right:10px !important;
+		.nav > li{
+			&.border{
+			    margin: 0 0px 0 -10px !important;
+    			padding: 0 4px !important;
+			}
+		}
+	}
+}
+@media only screen and (max-width:360px) {
+	h2{
+		font-size:24px !important;
+	}
+	h3{
+		font-size:18px !important;
+	}
+	.margn{
+		margin:0px;
+	}
+	
+	.conatact{
+		padding:0px;
+		margin:0px;
+		li{
+			display:inline-block;
+			padding:0px 0;
+		}
+
+	}
+}
