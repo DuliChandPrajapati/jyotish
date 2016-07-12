@@ -121,7 +121,7 @@ module.exports = function (grunt) {
     // Make sure there are no obvious mistakes
     jshint: {
       options: {
-        jshintrc: '.jshintrc',
+       // jshintrc: '.jshintrc',
         reporter: require('jshint-stylish')
       },
       all: {

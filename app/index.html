@@ -12,444 +12,22 @@
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
+   <!--  <link rel="stylesheet" href="bower_components/ionic/css/ionic.css"> -->
     <!-- endbuild -->
   </head>
   <body ng-app="jyotishyApp">
-    <!--[if lte IE 8]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
+   <header></header> 
+    <div class="container-fluid">
 
-    <!-- Add your site or application content here -->
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-          <div class="navbar-header col-md-8 col-sm-6 col-xs-10">
-              <div class="menu-icon col-md-6 col-sm-6 col-xs-5">
-              <span aria-hidden="true" data-target="#bs-example-navbar-collapse-1" class="glyphicon glyphicon-align-justify navbar-toggle collapsed" data-toggle="collapse"  aria-expanded="false"></span>
-              <span class="border"></span>
-              <span aria-hidden="true" class="glyphicon glyphicon-search"></span>
-              </div>
-              <div class="logo col-md-6 c0l-sm-6 col-xs-6"><h4>Dream.com</h4></div>
-          </div>
-           <!-- Brand and toggle get grouped for better mobile display -->
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="navbar-default navbar-right">
-                <ul class="nav navbar-nav">
-                  <li class="border"><a href="#"><span aria-hidden="true" class="glyphicon glyphicon-user"></span></a></li>
-                  <li ><a href="#"><span aria-hidden="true" class="glyphicon glyphicon-map-marker"></span></a></li>
-                </ul>
-            </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
-      </nav>
-      <nav class="navbar navbar-inverse col-md-12 col-sm-12 col-xs-12">
-        <div class="container-fluid">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home<span class="line">|</span></a></li>
-            <li><a href="#">about<span class="line">|</span></a></li>
-            <li><a href="#">logo<span class="line">|</span></a></li>
-            <li><a href="#">main<span class="line">|</span></a></li>
-            <li><a href="#">Page<span class="line">|</span></a></li>
-            <li><a href="#">style<span class="line">|</span></a></li>
-            <li><a href="#">print<span class="line">|</span></a></li>
-            <li><a href="#">config<span class="line">|</span></a></li>
-            <li><a href="#">screen<span class="line">|</span></a></li>
-          </ul>
-        </div>
-      </nav>
-      <div class="container-fluid">
-        <div class="row borderHeading">
-          <div class="col-xs-12 text-center heading padding-top-bottom">Jyotishi</div>
-        </div>
-        <div class="row">
-          <div class="col-md-3 col-xs-12">
-            <ol class="breadcrumb">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Library</a></li>
-              <li class="active">Data</li>
-            </ol>
-          </div>
-          <div class="col-md-9 col-xs-12 col-sm-12">
-                <div class="carousel slide" id="myCarousel">
-                  <div class="carousel-inner">
-                        <div class="item active">
-                          <div class="col-lg-4 col-xs-4 col-md-4 col-sm-4">
-                          <a href="#">1</a></div>
-                        </div>
-                        <div class="item">
-                          <div class="col-lg-4 col-xs-4 col-md-4 col-sm-4">
-                          <a href="#">2</a></div>
-                        </div>
-                        <div class="item">
-                          <div class="col-lg-4 col-xs-4 col-md-4 col-sm-4">
-                          <a href="#">3</a></div>
-                        </div>
-                        <div class="item">
-                          <div class="col-lg-4 col-xs-4 col-md-4 col-sm-4">
-                          <a href="#">4</a></div>
-                        </div>
-                        <div class="item">
-                          <div class="col-lg-4 col-xs-4 col-md-4 col-sm-4">
-                          <a href="#">5</a></div>
-                        </div>
-                        <div class="item">
-                          <div class="col-lg-4 col-xs-4 col-md-4 col-sm-4">
-                          <a href="#">6</a></div>
-                        </div>
-                        <div class="item">
-                          <div class="col-lg-4 col-xs-4 col-md-4 col-sm-4">
-                          <a href="#">7</a></div>
-                        </div>
-                        <div class="item">
-                          <div class="col-lg-4 col-xs-4 col-md-4 col-sm-4">
-                          <a href="#">8</a></div>
-                        </div>
-                  </div>
-                  <a class="left carousel-control" href="#myCarousel" data-slide="prev"><i class="icon-prev"></i></a>
-                  <a class="right carousel-control" href="#myCarousel" data-slide="next"><i class="icon-next"></i></a>
-                </div>
-          </div>
-        </div>  
-        <div class="row">
-          <div class="col-md-9 col-xs-12 ">
-            <div class="col-xs-12 col-md-12 col-sm-12">
-              <h2>jyoystish gyan kendra bastu shatra and kundli gold medilist</h2>
-            </div>
-            <div class="col-md-6 col-sm-12 col-xs-12">
-              <figure>
-                <img src="images/astro-zodiac_1.jpeg" class=" img-responsive" alt="Responsive image">
-                <figcaption>Monday,25 july 2016</figcaption>
-                <p class="sidePanel">jyoystish gyan kendra bastu shatra</p>
-              </figure>
-            </div>
-            <div class="col-md-6 col-sm-12 col-xs-12">
-              <figure>
-                <img src="images/astro-zodiac_1.jpeg" class="img-responsive" alt="Responsive image">
-                <figcaption>Monday,25 july 2016</figcaption>
-                <p class="sidePanel">jyoystish gyan kendra bastu shatra</p>
-              </figure>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6 col-xs-12">
-            <h3 class="margn">jyoystish gyan kendra bastu shatra</h3>
-            <figure>
-              <img src="images/asto-mini.jpeg" class="img-responsive" alt="Responsive image">
-              <figcaption>Monday,25 july 2016</figcaption>
-              <p class="sidePanel">jyoystish gyan kendra bastu shatra</p>
-            </figure>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12 col-sm-12 col-xs-12">
-            <div class="col-md-8 col-sm-6 col-xs-12">
-              <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-              <!-- Indicators -->
-                <ol class="carousel-indicators">
-                  <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                  <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                  <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                </ol>
-                <!-- Wrapper for slides -->
-                  <div class="carousel-inner" role="listbox">
-                    <div class="item active">
-                      <img src="images/slider1.jpg" alt="...">
-                      <div class="carousel-caption">
-                      </div>
-                    </div>
-                    <div class="item">
-                      <img src="images/slider2.jpg" alt="...">
-                      <div class="carousel-caption">
-                      </div>
-                    </div>
-                    <div class="item">
-                      <img src="images/slider3.jpg" alt="...">
-                      <div class="carousel-caption">
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Controls -->
-                  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                  </a>
-                  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                  </a>
-              </div>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-12 top">
-              <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                  <!-- Indicators -->
-                  <ol class="carousel-indicators">
-                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                    <li data-target="#myCarousel" data-slide-to="2"></li>
-                    <li data-target="#myCarousel" data-slide-to="3"></li>
-                  </ol>
-                  <!-- Wrapper for slides -->
-                  <div class="carousel-inner" role="listbox">
-                    <div class="item active">
-                      <img src="images/slider1.jpg" alt="Chania" width="460" height="345">
-                      <div class="carousel-caption">
-                        <h3>Chania</h3>
-                        <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
-                      </div>
-                    </div>
+       <div ui-view="breadcrum"></div>
+       <div ui-view="daily"></div>
+       <div ui-view="crousal"></div>
+       <div ui-view="weekly"></div>
+       <div ui-view="planet"></div>
+       <div ui-view="yearly"></div>
 
-                    <div class="item">
-                      <img src="images/slider2.jpg" alt="Chania" width="460" height="345">
-                    </div>
-                  
-                    <div class="item">
-                      <img src="images/slider3.jpg" alt="Flower" width="460" height="345">
-                    </div>
-
-                    <div class="item">
-                      <img src="images/slider2.jpg" alt="Flower" width="460" height="345">
-                      <div class="carousel-caption">
-                        <!-- <h3>Flowers</h3>
-                        <p>Beatiful flowers in Kolymbari, Crete.</p> -->
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Left and right controls -->
-                  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                  </a>
-                  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                  </a>
-                </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">         
-          <div class="col-md-2 col-sm-2 col-xs-4 text-center">
-            <figure class="rashi-hover">
-              <a href="#"><img src="images/astro-aquarius.jpg" alt="Responsive image">
-              <figcaption>aqarius</figcaption>
-              </a>
-              <small>21/3 - 19/4</small>
-            </figure>
-          </div>
-          <div class="col-md-2 col-sm-2 col-xs-4 text-center">
-            <figure class="rashi-hover">
-              <a href="#"><img src="images/astro-aries.jpg" alt="Responsive image"><figcaption>aries</figcaption></a><small>21/3 - 19/4</small>
-            </figure>
-          </div>
-          <div class="col-md-2 col-sm-2 col-xs-4 text-center">
-            <figure class="rashi-hover">
-              <a href=""><img src="images/astro-cancer.jpg"><figcaption>cancer</figcaption></a><small>21/3 - 19/4</small>
-            </figure>
-          </div>
-          <div class="col-md-2 col-sm-2 col-xs-4 text-center">
-            <figure class="rashi-hover">
-              <a href="#"><img src="images/astro-capricorn.jpg"><figcaption>capricorn</figcaption></a><small>21/3 - 19/4</small>
-            </figure>
-          </div>
-          <div class="col-md-2 col-sm-2 col-xs-4 text-center">
-            <figure class="rashi-hover">
-              <a href="#"><img src="images/astro-gemini.jpg"><figcaption>gemini</figcaption></a><small>21/3 - 19/4</small>
-            </figure>
-          </div>
-          <div class="col-md-2 col-sm-2 col-xs-4 text-center">
-            <figure class="rashi-hover">
-              <a href="#"><img src="images/astro-leo.jpg"><figcaption>leo</figcaption></a><small>21/3 - 19/4</small>
-            </figure>
-          </div>
-        
-          <div class="col-md-2 col-sm-2 col-xs-4 text-center">
-            <figure class="rashi-hover">
-              <a href="#"><img src="images/astro-libra.jpg"><figcaption>libra</figcaption></a><small>21/3 - 19/4</small>
-            </figure>
-          </div>
-          <div class="col-md-2 col-sm-2 col-xs-4 text-center">
-            <figure class="rashi-hover">
-              <a href="#"><img src="images/astro-pisces.jpg"><figcaption>libra</figcaption></a><small>21/3 - 19/4</small>
-            </figure>
-          </div>
-          <div class="col-md-2 col-sm-2 col-xs-4 text-center">
-            <figure class="rashi-hover">
-              <a href="#"><img src="images/astro-sagittarius.jpg"><figcaption>libra</figcaption></a><small>21/3 - 19/4</small>
-            </figure>
-          </div>
-          <div class="col-md-2 col-sm-2 col-xs-4 text-center">
-            <figure class="rashi-hover">
-              <a href="#"><img src="images/astro-scorpio.jpg"><figcaption>scorpio</figcaption></a><small>21/3 - 19/4</small>
-            </figure>
-          </div>
-          <div class="col-md-2 col-sm-2 col-xs-4 text-center">
-            <figure class="rashi-hover">
-              <a href="#"><img src="images/astro-taurus.jpg"><figcaption>taurus</figcaption></a><small>21/3 - 19/4</small>
-            </figure>
-          </div>
-          <div class="col-md-2 col-sm-2 col-xs-4 text-center">
-            <figure class="rashi-hover">
-              <a href="#"><img src="images/astro-virgo.jpg"><figcaption>virgo</figcaption></a><small>21/3 - 19/4</small>
-            </figure>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12 col-xs-12">
-            <div class="col-xs-12">
-              <h3>jyoystish gyan kendra bastu shatra</h3>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-12">
-              <figure class="border-box">
-                <img src="images/jyotish.jpg" class="img-polaroid img-responsive" alt="Responsive image">
-                <figcaption class="text-center">Monday,25 july 2016</figcaption>
-                <p>Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas. Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas. Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas. Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas.</p>
-                <button value="more">More</button>
-              </figure>
-              
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-12">
-              <figure class="border-box">
-                <img src="images/jyotish.jpg" class="img-polaroid img-responsive" alt="Responsive image">
-                <figcaption class="text-center">Monday,25 july 2016</figcaption>
-                <p>Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas. Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas. Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas. Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas.</p>
-                <button value="more">More</button>
-              </figure>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-12">
-              <figure class="border-box">
-                <img src="images/jyotish.jpg" class="img-polaroid img-responsive" alt="Responsive image">
-                <figcaption class="text-center">Monday,25 july 2016</figcaption>
-                <p>Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas. Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas. Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas. Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas.</p>
-                <button value="more">More</button>
-              </figure>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-12">
-              <figure class="border-box">
-                <img alt="Responsive image" class="img-polaroid img-responsive" src="images/jyotish.jpg">
-                <figcaption class="text-center">Monday,25 july 2016</figcaption>
-                <p>Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas. Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas. Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas. Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas.</p>
-                <button value="more">More</button>
-              </figure>
-            </div>
-          </div>          
-        </div>
-        <div class="row">
-          <div class="col-md-12 col-xs-12">
-          <div class="col-md-12 col-xs-12"><h3>all rashi</h3></div>
-            <div class="col-md-3 col-sm-6 col-xs-12">
-              <figure >
-                <img src="images/astro-aquarius.jpg" class="pull-left border-box img-responsive" alt="Responsive image">
-                <figcaption>Aqarius</figcaption>
-                <p>Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas. Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas. Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas. Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas.</p>
-              </figure>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-12">
-              <figure >
-                <img src="images/astro-aries.jpg" class="pull-left border-box img-responsive" alt="Responsive image">
-                <figcaption>Aries</figcaption>
-                <p>Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas. Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas. Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas. Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas.</p>
-              </figure>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-12">
-              <figure >
-                <img src="images/astro-cancer.jpg" class="pull-left border-box img-responsive" alt="Responsive image">
-                <figcaption>Cancer</figcaption>
-                <p>Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas. Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas. Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas. Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas.</p>
-              </figure>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-12">
-            <figure >
-                <img src="images/astro-capricorn.jpg" class="pull-left border-box img-responsive" alt="Responsive image">
-                <figcaption>capricorn</figcaption>
-                <p>Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas. Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas. Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas. Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas.</p>
-              </figure>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-12">
-            <figure >
-                <img src="images/astro-gemini.jpg" class="pull-left border-box img-responsive" alt="Responsive image">
-                <figcaption>Gemini</figcaption>
-                <p>Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas. Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas. Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas. Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas.</p>
-              </figure>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-12">
-              <figure >
-                <img src="images/astro-leo.jpg" class="pull-left border-box img-responsive" alt="Responsive image">
-                <figcaption>Leo</figcaption>
-                <p>Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas. Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas. Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas. Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas.</p>
-              </figure>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-12">
-            <figure >
-                <img src="images/astro-libra.jpg" class="pull-left border-box img-responsive" alt="Responsive image">
-                <figcaption>Libra</figcaption>
-                <p>Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas. Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas. Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas. Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas.</p>
-              </figure>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-12">
-            <figure >
-                <img src="images/astro-pisces.jpg" class="pull-left border-box img-responsive" alt="Responsive image">
-                <figcaption>Pisces</figcaption>
-                <p>Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas. Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas. Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas. Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas.</p>
-              </figure>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-12">
-              <figure >
-                <img src="images/astro-sagittarius.jpg" class="pull-left border-box img-responsive" alt="Responsive image">
-                <figcaption>Sagittarius</figcaption>
-                <p>Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas. Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas. Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas. Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas.</p>
-              </figure>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-12">
-              <figure >
-                <img src="images/astro-scorpio.jpg" class="pull-left border-box img-responsive" alt="Responsive image">
-                <figcaption>Scorpio</figcaption>
-                <p>Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas. Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas. Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas. Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas.</p>
-              </figure>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-12">
-              <figure >
-                <img src="images/astro-taurus.jpg" class="pull-left border-box img-responsive" alt="Responsive image">
-                <figcaption>Taurus</figcaption>
-                <p>Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas. Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas. Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas. Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas.</p>
-              </figure>
-            </div>
-            <div class="col-md-3 col-sm-6 col-xs-12">
-              <figure >
-                <img src="images/astro-virgo.jpg" class="pull-left border-box img-responsive" alt="Responsive image">
-                <figcaption>Virgo</figcaption>
-                <p>Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas. Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas. Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas. Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas.</p>
-              </figure>
-            </div>
-          </div>
-        </div>  
-      </div>
-      <!--footer-area-->
-      <div class="container-fluid footerdown">
-        <div class="row">
-          <div class="col-md-12 col-xs-12">
-            <div class="col-md-8 col-xs-12">
-              <ul class="conatact">
-                <li><a href="#">About | </a></li>
-                <li><a href="#">Privacy | </a></li>
-                <li><a href="#">Contact us | </a></li>
-                <li><a href="#">Terms & Conditions </a></li>
-              </ul>
-            </div>
-            <div class="col-md-4">
-              <div class="share">
-              <span>follows us</span>
-                <ul>
-                  <li><a  target="_blank" href="https://www.facebook.com/Amarujala"><img src="images/facebook_circle.png" class="img-responsive" alt="Responsive image"></a>
-                  </li>
-                  <li><a  target="_blank" href="https://www.twitter.com/Amarujala"><img src="images/twitter_circle.png" class="img-responsive" alt="Responsive image"></li>
-                  <li><a  target="_blank" href="https://www.youtube.com/Amarujala"><img src="images/youtube_circle.png" class="img-responsive" alt="Responsive image"></li>
-                  <li><a  target="_blank" href="https://www.google.com/Amarujala"><img src="images/google_circle.png" class="img-responsive" alt="Responsive image"></li>
-                  <li><a  target="_blank" href="https://www.linkedin.com/Amarujala"><img src="images/linkedin_circle.png" class="img-responsive" alt="Responsive image"></li>
-                </ul>
-              </div>
-            </div>
-              
-            </ul>
-          </div>
-        </div>
-      </div>
+    </div> 
+   <footer></footer>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
      <script>
@@ -473,14 +51,26 @@
     <script src="bower_components/angular-messages/angular-messages.js"></script>
     <script src="bower_components/angular-resource/angular-resource.js"></script>
     <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
     <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
     <script src="bower_components/angular-touch/angular-touch.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
         <!-- build:js({.tmp,app}) scripts/scripts.js -->
+        <!-- MODULES -->
+        <script src="scripts/app.routes.js"></script>
+        <script src="scripts/app.config.js"></script>
+        <script src="scripts/app.core.js"></script>
+        <script src="scripts/app.services.js"></script>
         <script src="scripts/app.js"></script>
+        <!-- / -->
+        <!-- CONTROLLERS -->
         <script src="scripts/controllers/main.js"></script>
+        <!-- / -->
+        <!-- DIRECTIVES -->
+        <script src="scripts/directives/common.drtc.js"></script>
+        <!-- / -->
         <!-- endbuild -->
 </body>
 </html>
