@@ -5,9 +5,10 @@ angular
     .config(config);
 
 function config ($stateProvider,$urlRouterProvider) {
+  $urlRouterProvider.otherwise('/jyotishy');
    $stateProvider
       .state('jyotishy', {//State demonstrating Nested views
-          url: "/",
+          url: "/jyotishy",
           views: {
            "breadcrum"    :     {templateUrl: "scripts/templates/breadcrum.tpl.html"},
             "daily"       :     { templateUrl: "scripts/templates/daily-rashi.tpl.html" },
