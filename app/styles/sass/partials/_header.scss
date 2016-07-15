@@ -15,7 +15,10 @@
 			}
 		}
 		figcaption{
-			color:$background-color;
+			color:$rashi-text-color;
+			float: left;
+		    padding: 32px 10px;
+		    font-size: $font-heading-size;
 		}	
 	}
 

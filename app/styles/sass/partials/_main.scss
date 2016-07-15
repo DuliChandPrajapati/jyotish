@@ -79,7 +79,7 @@ h2{
 	.navbar-nav {
 		> li {
 			> a{
-				padding:15px 25px !important;
+				padding:15px 18px !important;
 				}
 			}
 		}	
@@ -88,12 +88,12 @@ h2{
 	.navbar-nav > {
 		.active {
 			> a{
-				padding:15px 25px !important;
+				padding:15px 18px !important;
 				&:hover{
-				padding:15px 25px !important;
+				padding:15px 18px !important;
 				}
 				&:focus{
-				padding:15px 25px !important;
+				padding:15px 18px !important;
 				}
 			}
 		}
