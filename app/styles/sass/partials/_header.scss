@@ -1,0 +1,23 @@
+.owner{
+	position:absolute;
+	top:0px;
+	right:20%;
+	z-index:+9;
+	border-radius:100;
+	span{
+		img{
+			border:#ccc solid 2px;
+			border-radius:100%;
+			width:100px;
+			height:100px;
+			&:hover{
+				border:red solid 2px;
+			}
+		}
+		figcaption{
+			color:$background-color;
+		}	
+	}
+
+	
+}
