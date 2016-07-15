@@ -1,5 +1,20 @@
 .daily-img{
 	background:#f9f9f9;
-	border:#f0f0f0 solid 2px;
-	
+	border-top:#f0f0f0 solid 2px;	
+	border-bottom:#f0f0f0 solid 5px;
+	figcaption{
+		padding:10px;
+		color:$rashi-text-color;
+		p{
+			margin:0px;
+			padding:0px;
+		}
+		&:first-child{
+			font-size:$font-large-size;
+			font-weight:bold;
+		}
+		&:nth-child(2){
+			border-bottom:#ccc solid 1px;
+		}
+	}
 }
