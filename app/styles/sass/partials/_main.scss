@@ -38,7 +38,7 @@ a:hover{
 				    }
 			    }
 			    .border {
-				    border-right: 1px solid #000;
+				    border-right: 1px solid $border-color;
 				    padding: 0 10px 8px 0;
 				    margin:0 10px 0 0;
 				    color:$text-color;
@@ -59,7 +59,7 @@ a:hover{
 			.nav > li{
 				display:inline-block;
 					&.border{
-					border-right: 1px solid #000;
+					border-right: 1px solid $border-color;
 				    margin: 0 10px 0 0;
 					padding: 0 10px;
 				    color:$text-color;
@@ -99,8 +99,8 @@ a:hover{
 
 .menu {
 	> li{
-	border-right:#333 solid 1px;
-	border-left:#666 solid 1px;
+	border-right:$menu-divider-right solid 1px;
+	border-left:$menu-divider-left solid 1px;
 	> .active{
 
 		> a{
@@ -108,7 +108,7 @@ a:hover{
 		}
 	}
 		&:hover{
-		background:#090909;
+		background:$menu-hover-color;
 		}
 	}
 }
