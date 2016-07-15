@@ -6,9 +6,12 @@ a:hover{
 	text-decoration:none;
 	color:$rashi-text-color;
 }
+h2{
+	font-size: $font-heading-size;
+}
 
 .background{
-	background:#f8f8f8;	
+	background:$bg-color;	
 	border-bottom:#666 solid 3px;
 }
 .navbar{
