@@ -7,6 +7,10 @@ a:hover{
 	color:$rashi-text-color;
 }
 
+.background{
+	background:#f8f8f8;	
+	border-bottom:#666 solid 3px;
+}
 .navbar{
 	margin-bottom:0px;
 	border-radius:0px;
@@ -66,12 +70,50 @@ a:hover{
 				}
 			}
 	}
-	.navbar-nav > li > a{
-		.line{
-			padding: 0 15px;
+	
+}
+.navbar-inverse {
+	.navbar-nav {
+		> li {
+			> a{
+				padding:15px 25px !important;
+				}
+			}
+		}	
+	}
+.navbar-inverse {
+	.navbar-nav > {
+		.active {
+			> a{
+				padding:15px 25px !important;
+				&:hover{
+				padding:15px 25px !important;
+				}
+				&:focus{
+				padding:15px 25px !important;
+				}
+			}
 		}
 	}
 }
+
+.menu {
+	> li{
+	border-right:#333 solid 1px;
+	border-left:#666 solid 1px;
+	> .active{
+
+		> a{
+			padding:0 20px !important;
+		}
+	}
+		&:hover{
+		background:#090909;
+		}
+	}
+}
+
+
 .border-box{
 
 	border:#f2f2f2 solid 1px;
@@ -82,11 +124,15 @@ a:hover{
 }
 .borderHeading
 {
-	border-bottom:2px $text-color solid;
-    margin-top: 20px;
-    padding-bottom:20px;
-    padding-top:20px;
+	border-bottom:3px #666 solid;
+    padding:20px 0;
+    h2{
+    	margin:0;
+    	padding:0;
+    	font-size:$font-heading-size;
+    }
 }
+		
 .heading
 	{
 		font-size:$font-heading-size;
