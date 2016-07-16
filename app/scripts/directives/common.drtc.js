@@ -9,4 +9,9 @@ angular.module('jyotishyApp.core', [])
 	return{
 		templateUrl:'scripts/templates/footer.tpl.html'
 	};
+})
+.directive('breadcrum', function(){
+	return{
+		templateUrl:'scripts/templates/breadcrum.tpl.html'
+	};
 });
