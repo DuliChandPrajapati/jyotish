@@ -118,7 +118,6 @@ h2{
 
 
 .border-box{
-
 	border:#f2f2f2 solid 1px;
 	border-radius:2px;
 	p{
@@ -132,7 +131,7 @@ h2{
     h2{
     	margin:0;
     	padding:0;
-    	font-size:$font-heading-size;
+    	font-size:$font-rashi-size;
     }
 }
 		
@@ -182,4 +181,30 @@ h2{
 	    }
     }
 	
+}
+.mainHeading{
+	text-align: center;
+    border-bottom: #ccc solid 1px;
+	&:hover{
+		color:$menu-hover-color;
+	}
+	&:before{
+	font-family: 'Glyphicons Halflings';
+	content: "\e103";
+	padding-right:5px;
+	color:$menu-hover-color;
+	}
+	&:after{
+	font-family: 'Glyphicons Halflings';
+	content: "\e103";
+	padding-left:5px;
+	color:$menu-hover-color;
+	position: absolute;
+	 -ms-transform: rotate(270deg); /* IE 9 */
+    -ms-transform-origin: 55% 67%; /* IE 9 */
+    -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
+    -webkit-transform-origin: 55% 67%; /* Chrome, Safari, Opera */
+    transform: rotate(270deg);
+    transform-origin: 55% 67%;
+	}
 }
