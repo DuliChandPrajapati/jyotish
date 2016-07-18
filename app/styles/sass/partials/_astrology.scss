@@ -1,0 +1,29 @@
+.astrology{
+	margin:20px 0px;
+	padding:0;
+	li{
+		list-style:none;
+		display:inline-block;
+		figure{
+			padding:0 12px;
+			img{
+				width:150px;
+				height:150px;
+				border:#ccc solid 5px;
+				&:hover{
+				border:$menu-hover-color solid 5px;
+				}
+			}
+			figcaption{
+			    text-align: center;
+			    font-size: $font-heading-size;
+			    width: 154px;
+			    border-top: $menu-hover-color solid 5px;
+			}
+		}
+		> a{
+			padding:10px 0px !important;
+		}
+	}
+
+}

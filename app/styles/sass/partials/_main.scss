@@ -50,6 +50,17 @@ h2{
 		.logo {
 		    display:inline-block;
 		    text-align:center;
+		    h4{
+		    	font-size:30px;
+		    	-webkit-text-stroke: 1px black;
+			   color: white;
+			   text-shadow:
+			       3px 3px 0 $rashi-text-color,
+			     -1px -1px 0 #000,  
+			      1px -1px 0 $rashi-text-color,
+			      -1px 1px 0 #000,
+			       1px 1px 0 $rashi-text-color;
+		    }
 		}
 	}
 	.navbar-right {
@@ -118,7 +129,6 @@ h2{
 
 
 .border-box{
-
 	border:#f2f2f2 solid 1px;
 	border-radius:2px;
 	padding: 6px;
@@ -134,7 +144,7 @@ h2{
     h2{
     	margin:0;
     	padding:0;
-    	font-size:$font-heading-size;
+    	font-size:$font-rashi-size;
     }
 }
 		
@@ -193,5 +203,80 @@ h2{
 	p{
 		padding:0 4px;
 		text-align: justify;
+	}
+}
+.mainHeading{
+	text-align: center;
+	p{
+		border-top: $menu-hover-color solid 1px;
+	    width: 60%;
+	    display: block;
+	    position: absolute;
+	    top: 33px;
+	    z-index: -1;
+	    left: 20%;
+    }
+	span{
+		z-index:9;
+		background:#fff;
+	&:hover{
+		color:$menu-hover-color;
+	}
+	&:before{
+	font-family: 'Glyphicons Halflings';
+	content: "\e103";
+	padding-right:5px;
+	color:$menu-hover-color;
+	}
+	&:after{
+	font-family: 'Glyphicons Halflings';
+	content: "\e103";
+	padding-left:5px;
+	color:$menu-hover-color;
+	background:#fff;
+	position: absolute;
+	 -ms-transform: rotate(270deg); /* IE 9 */
+    -ms-transform-origin: 55% 67%; /* IE 9 */
+    -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
+    -webkit-transform-origin: 55% 67%; /* Chrome, Safari, Opera */
+    transform: rotate(270deg);
+    transform-origin: 55% 67%;
+	}
+	}
+}
+
+
+.tab-content{
+	border-bottom: #ccc solid 3px;
+    padding-bottom: 20px;
+	> .tab-pane{
+		> .solution{
+			> ul{	
+			list-style-type: decimal;
+			z-index:2;		
+				> li{	
+					&.done
+					{
+					line-height:30px;
+					color:$rashi-text-color;
+					margin:20px 0;
+					font-size:$font-size-body;
+						&:before{
+							    content: ' ';
+							    border-radius: 100%;
+							    background:$menu-divider-left;
+							    position: absolute;
+							    border: $menu-hover-color solid 5px;
+							    z-index: -1;
+							    margin: -4px -32px 0px;
+							    padding: 15px 15px;
+						}
+					}
+					span{
+						margin-left:20px;
+					}	
+				}
+			}
+		}
 	}
 }

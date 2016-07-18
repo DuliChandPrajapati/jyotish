@@ -10,7 +10,7 @@ function config ($stateProvider,$urlRouterProvider) {
       .state('jyotishy', {//State demonstrating Nested views
           url: "/jyotishy",
           views: {
-           "breadcrum"    :     { templateUrl: "scripts/templates/breadcrum.tpl.html"},
+           "home"         :     { templateUrl: "scripts/templates/home.tpl.html"},
             "daily"       :     { templateUrl: "scripts/templates/daily-rashi.tpl.html" },
             "crousal"     :     { templateUrl: "scripts/templates/crousal-rashi.tpl.html"},
             "weekly"      :     { templateUrl: "scripts/templates/weekly-rashi.tpl.html"},
