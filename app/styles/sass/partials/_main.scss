@@ -121,8 +121,10 @@ h2{
 
 	border:#f2f2f2 solid 1px;
 	border-radius:2px;
+	padding: 6px;
 	p{
 		text-align:justify;
+		 padding: 0 2px;
 	}
 }
 .borderHeading
@@ -137,18 +139,22 @@ h2{
 }
 		
 .heading
-	{
-		font-size:$font-heading-size;
-		font-weight:400;
-		line-height:18px;
-	}
+{
+	font-size:$font-heading-size;
+	font-weight:400;
+	line-height:18px;
+}
 .rashi-hover{
-	padding:15px 0;
+	border: 2px solid #f1f1f1;
+    border-radius: 5%;
+    margin: 10px 0;
+    padding: 15px 0;
 	&:hover
-	{
-	color:$rashi-text-color;
-	padding:15px 0;
-	}	
+		{
+			color:$rashi-text-color;
+			padding:15px 0;
+			border:2px solid red;
+		}	
 }
 .img-polaroid{
 	margin:0 auto;
@@ -182,4 +188,10 @@ h2{
 	    }
     }
 	
+}
+.yearly-rashi{
+	p{
+		padding:0 4px;
+		text-align: justify;
+	}
 }

@@ -1,26 +1,132 @@
+#myTab{
+	a{
+		padding:10px 14px;
+	}
+}
 .daily-img{
 	background:#f9f9f9;
-	border:#f0f0f0 solid 5px;
+	border:#f0f0f0 solid 2px;
 	width:200px;
 	height:200px;
+	margin:10px 0px;
 	border-radius:100%;
+	position:relative;
+	.btn-info{
+		display:none;
+	}
+	&:hover{
+		border:2px solid red;
+		border-radius:100%;
+		/*.overlay{
+		    background-color: #f0f0f0;
+		    border-radius: 100px;
+		    height:150px;
+		    left:18px;
+		    position: absolute;
+		    top:164px;
+		    width:150px;
+		    z-index: 99999;
+		    .btn-info {
+			     background-color: #5bc0de;
+			    border-color: #46b8da;
+			    color: #fff;
+			    left:45px;
+			    position: absolute;
+			    top:63px;
+			    display:block;
+			    padding:5px;
+			    font-size:10px;
+			}
+		}*/
+	}
 	img{
 	width:200px;
-	height:200px;	 
+	height:200px;
+	padding: 0 0 99px;
+	position: absolute;	 
 	}
 	figcaption{
-		padding:10px;
 		color:$rashi-text-color;
+		border-top:2px solid #ccc;
+	    position: absolute;
+	    top: 101px;
+	    width: 196px;
+	    text-align:center;
+
 		p{
-			margin:0px;
-			padding:0px;
+			margin:2px 0px;
+			padding:2px 0px;
+			
 		}
 		&:first-child{
 			font-size:$font-large-size;
 			font-weight:bold;
 		}
 		&:nth-child(2){
-			border-bottom:#ccc solid 1px;
+			/*border-bottom:#ccc solid 1px;*/
+			
 		}
 	}
+	.overlay{
+		    background-color: #f0f0f0;
+		    border-radius: 100px;
+		    height:150px;
+		    left:18px;
+		    position: absolute;
+		    top:164px;
+		    width:150px;
+		    z-index: 99999;
+		    .btn-info {
+			     background-color: #5bc0de;
+			    border-color: #46b8da;
+			    color: #fff;
+			    left:45px;
+			    position: absolute;
+			    top:63px;
+			    display:block;
+			    padding:5px;
+			    font-size:10px;
+			}
+		}
 }
+.popupModal-dialog {
+  color: #333;
+    font-size: 14px;
+    margin: 5% 22%;
+    position: absolute;
+    text-align: center;
+    width:50%;
+    z-index: 1041;
+
+}
+
+.popupModal-content {
+  position: relative;
+  background-color: #ffffff;
+  border: 1px solid #999999;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  background-clip: padding-box;
+  outline: none;
+}
+
+.popupModal-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1040;
+  background-color: #000000;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+.popupModal-body {
+  position: relative;
+  padding: 10px 10px 50px;
+  font-size: 16px;
+}
+
