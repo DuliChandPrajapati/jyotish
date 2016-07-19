@@ -115,15 +115,47 @@ h2{
 	> li{
 	border-right:$menu-divider-right solid 1px;
 	border-left:$menu-divider-left solid 1px;
+	display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    overflow: hidden;
+    &:before {
+	    content: "";
+	    position: absolute;
+	    z-index: -1;
+	    left: 0;
+	    right: 100%;
+	    bottom: 0;
+	    background: $rashi-text-color;
+	    height: 4px;
+	    -webkit-transition-property: right;
+	    transition-property: right;
+	    -webkit-transition-duration: 0.3s;
+	    transition-duration: 0.3s;
+	    -webkit-transition-timing-function: ease-out;
+	    transition-timing-function: ease-out;
+    }
 	> .active{
 
 		> a{
 			padding:0 20px !important;
 		}
 	}
-		&:hover{
-		background:$menu-hover-color;
+		&:hover, &:focus, &:active{
+			&:before{
+			right:0;
+			-webkit-transform: scaleX(1);
+   			 transform: scaleX(1);
+			}
 		}
+
+		
 	}
 }
 
@@ -154,18 +186,7 @@ h2{
 	font-weight:400;
 	line-height:18px;
 }
-.rashi-hover{
-	border: 2px solid #f1f1f1;
-    border-radius: 5%;
-    margin: 10px 0;
-    padding: 15px 0;
-	&:hover
-		{
-			color:$rashi-text-color;
-			padding:15px 0;
-			border:2px solid red;
-		}	
-}
+
 .img-polaroid{
 	margin:0 auto;
 }

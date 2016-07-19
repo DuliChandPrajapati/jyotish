@@ -1,0 +1,27 @@
+.rashi-hover{
+	border: 5px solid $rashi-border-color;
+	background-color: $bg-color;
+   padding:40px 15px;
+    margin:12px 0px;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 1s;
+    -webkit-transition-property: background, border-radius;
+    transition-property: border-radius;
+  	transition-timing-function: linear;
+    text-transform: capitalize;
+	&:hover
+		{
+			color:$rashi-text-color;
+			padding:40px 15px;
+			border-radius:100%;
+			margin:12px auto 0;
+			border:$rashi-border-color 5px solid;
+		}	
+}

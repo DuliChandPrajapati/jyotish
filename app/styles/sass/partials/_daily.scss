@@ -4,8 +4,8 @@
 	}
 }
 .daily-img{
-	background:#f9f9f9;
-	border:#f0f0f0 solid 2px;
+	background:$bg-color;
+	border:$rashi-border-color solid 2px;
 	width:200px;
 	height:200px;
 	margin:10px 0px;
@@ -18,7 +18,7 @@
 		border:2px solid red;
 		border-radius:100%;
 		.overlay{
-		    background-color: #f0f0f0;
+		    background-color: $bg-color;
 		    border-radius: 100px;
 		    height:150px;
 		    left:18px;
@@ -47,7 +47,7 @@
 	}
 	figcaption{
 		color:$rashi-text-color;
-		border-top:2px solid #ccc;
+		border-top:2px solid $rashi-border-color;
 	    position: absolute;
 	    top: 101px;
 	    width: 196px;
