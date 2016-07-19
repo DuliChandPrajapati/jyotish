@@ -5,7 +5,7 @@
 }
 .daily-img{
 	background:#f9f9f9;
-	border:#f0f0f0 solid 2px;
+	border:#f0f0f0 solid 3px;
 	width:200px;
 	height:200px;
 	margin:10px 0px;
@@ -15,26 +15,28 @@
 		display:none;
 	}
 	&:hover{
-		border:2px solid red;
 		border-radius:100%;
 		.overlay{
 		    background-color: #f0f0f0;
 		    border-radius: 100px;
-		    height:150px;
-		    left:18px;
+		    height:202px;
+		    left:-4px;
 		    position: absolute;
-		    top:164px;
-		    width:150px;
+		    top:-4px;
+		    width:202px;
 		    z-index: 99999;
+		    .modal-dialog{
+		    	width:940px !important;
+		    }
 		    .btn-info {
 			     background-color: #5bc0de;
 			    border-color: #46b8da;
 			    color: #fff;
-			    left:45px;
+			    left:68px;
 			    position: absolute;
-			    top:63px;
+			    top:80px;
 			    display:block;
-			    padding:5px;
+			    padding:8px;
 			    font-size:10px;
 			}
 		}
@@ -50,7 +52,7 @@
 		border-top:2px solid #ccc;
 	    position: absolute;
 	    top: 101px;
-	    width: 196px;
+	    width: 192px;
 	    text-align:center;
 
 		p{
@@ -67,4 +69,6 @@
 			
 		}
 	}
+
+	
 }
