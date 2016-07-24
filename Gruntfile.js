@@ -30,7 +30,15 @@ module.exports = function (grunt) {
 
     // Project settings
     yeoman: appConfig,
-
+    html2js: {
+      options: {
+        base:'app'
+      },
+      dist: {
+        src: [ 'app/views/**/*.html' ],
+        dest: 'app/scripts/templates/tpl.js'
+      }
+    },
     // Watches files for changes and runs tasks based on the changed files
     watch: {
       bower: {
@@ -38,7 +46,8 @@ module.exports = function (grunt) {
         tasks: ['wiredep']
       },
       js: {
-        files: ['<%= yeoman.app %>/scripts/{,*/}*.js'],
+        files: ['<%= yeoman.app %>/scripts/{,*/}*.js','<%= yeoman.app %>/views/{,*/}*.html', '!<%= yeoman.app %>/scripts/{,*/}tpl.js'],
+        //tasks: ['html2js:dist'],
         tasks: ['newer:jshint:all', 'newer:jscs:all'],
         options: {
           livereload: '<%= connect.options.livereload %>'
@@ -362,7 +371,7 @@ module.exports = function (grunt) {
         files: [{
           expand: true,
           cwd: '<%= yeoman.dist %>',
-          src: ['*.html'],
+           src: ['*.html', 'views/{,*/}*.html'],
           dest: '<%= yeoman.dist %>'
         }]
       }
@@ -412,6 +421,7 @@ module.exports = function (grunt) {
           src: [
             '*.{ico,png,txt}',
             '*.html',
+            'views/{,*/}*.html',
             'images/{,*/}*.{webp}',
             'styles/fonts/{,*/}*.*'
           ]
