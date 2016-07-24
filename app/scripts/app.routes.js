@@ -4,11 +4,15 @@ angular
     .module('jyotishyApp.routes', ['ngRoute','ui.router'])
     .config(config);
 
-function config ($stateProvider,$urlRouterProvider) {
-  $urlRouterProvider.otherwise('/jyotishy');
+function config ($stateProvider,$urlRouterProvider,$locationProvider) {
+  //$urlRouterProvider.otherwise('/');
+  $locationProvider.html5Mode({
+     enabled: true
+     }).hashPrefix('!');
+
    $stateProvider
-      .state('jyotishy', {//State demonstrating Nested views
-          url: "/jyotishy",
+      .state('/', {//State demonstrating Nested views
+          url: "/",
           views: {
            "home"         :     { templateUrl: "views/home.tpl.html"},
             "daily"       :     { templateUrl: "views/daily-rashi.tpl.html" },
@@ -66,7 +70,9 @@ function config ($stateProvider,$urlRouterProvider) {
         url: "/photo",
         templateUrl : "views/newtemp.tpl.html"
       })
-      
+    
    }
+
+
 
     
