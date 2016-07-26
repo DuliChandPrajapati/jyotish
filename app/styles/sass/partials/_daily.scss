@@ -3,6 +3,27 @@
 		padding:10px 14px;
 	}
 }
+.nav-tabs {
+	> li{
+	.active{
+		background:$rashi-bg-color !important;
+	}
+		padding: 0 2px;
+		> a{
+		    font-size: 22px;
+		}
+	}
+	
+}
+.nav {
+	> li{
+		 > a{
+		 	&:hover, &:focus{
+		 	background:$rashi-bg-color !important;
+		 	}
+		 }
+	}
+}
 .daily-img{
 	background:$bg-color;
 	border:$rashi-border-color solid 2px;
@@ -13,11 +34,19 @@
 	margin:10px 0px;
 	border-radius:100%;
 	position:relative;
+
 	.btn-info{
 		display:none;
 	}
 	&:hover{
 		border-radius:100%;
+		-moz-osx-font-smoothing: grayscale;
+	    -webkit-transition-duration: 0.3s;
+	    transition-duration: 1s;
+	    -webkit-transition-property: background, border-radius;
+    transition-property: border-radius;
+  	transition-timing-function: linear;
+    text-transform: capitalize;
 		.overlay{
 		    background-color: $bg-color;
 		    border-radius: 100px;
@@ -27,6 +56,7 @@
 		    top:-4px;
 		    width:202px;
 		    z-index: 99999;
+
 		    .modal-dialog{
 		    	width:940px !important;
 		    }
