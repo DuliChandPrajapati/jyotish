@@ -23,22 +23,22 @@
         margin-left: 10%;
     }
 }
-.carousel-control.left,.carousel-control.right  {background:none;width:25px;}
-/*.carousel-control.left {left:-25px;}
-.carousel-control.right {right:-25px;}*/
-.broun-block {
-    background: url("http://myinstantcms.ru/images/bg-broun1.jpg") repeat scroll center top rgba(0, 0, 0, 0);
-    padding-bottom: 34px;
-}
-.block-text {
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 3px 0 #2c2222;
-    color: #626262;
-    font-size: 14px;
-    margin-top: 27px;
-    padding: 15px 18px;
-}
+    .carousel-control.left,.carousel-control.right  {background:none;width:25px;}
+    /*.carousel-control.left {left:-25px;}
+    .carousel-control.right {right:-25px;}*/
+    .broun-block {
+        background: url("http://myinstantcms.ru/images/bg-broun1.jpg") repeat scroll center top rgba(0, 0, 0, 0);
+        padding-bottom: 34px;
+    }
+    .block-text {
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 3px 0 #2c2222;
+        color: #626262;
+        font-size: 14px;
+        margin-top: 27px;
+        padding: 15px 18px;
+    }
 .block-text a {
  color: #7d4702;
     font-size: 25px;
@@ -100,4 +100,10 @@
 }
 .rel {
     position: relative;
+}
+#carousel-reviewsone .glyphicon.glyphicon-chevron-left,#carousel-reviewsone .glyphicon.glyphicon-chevron-right {
+    top:188px !important;
+}
+#carousel-reviewstwo .left.carousel-control,#carousel-reviewstwo .right.carousel-control{
+    top:17px !important;
 }
