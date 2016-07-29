@@ -4,65 +4,75 @@ angular
     .module('jyotishyApp.routes', ['ngRoute','ui.router'])
     .config(config);
 
-function config ($stateProvider,$urlRouterProvider) {
-  $urlRouterProvider.otherwise('/jyotishy');
+function config ($stateProvider,$urlRouterProvider,$locationProvider) {
+  //$urlRouterProvider.otherwise('/');
+  $locationProvider.html5Mode({
+     enabled: true
+     }).hashPrefix('!');
+
    $stateProvider
-      .state('jyotishy', {//State demonstrating Nested views
-          url: "/jyotishy",
+      .state('/', {//State demonstrating Nested views
+          url: "/",
           views: {
-           "home"         :     { templateUrl: "scripts/templates/home.tpl.html"},
-            "daily"       :     { templateUrl: "scripts/templates/daily-rashi.tpl.html" },
-            "crousal"     :     { templateUrl: "scripts/templates/crousal-rashi.tpl.html"},
-            "weekly"      :     { templateUrl: "scripts/templates/weekly-rashi.tpl.html"},
-            "planet"      :     { templateUrl: "scripts/templates/planet.tpl.html" },
-            "yearly"      :     { templateUrl: "scripts/templates/yearly-rashi.tpl.html"}  
+           "home"         :     { templateUrl: "views/home.tpl.html"},
+            "daily"       :     { templateUrl: "views/daily-rashi.tpl.html" },
+            "crousal"     :     { templateUrl: "views/crousal-rashi.tpl.html"},
+            "weekly"      :     { templateUrl: "views/weekly-rashi.tpl.html"},
+            "planet"      :     { templateUrl: "views/planet.tpl.html" },
+            "yearly"      :     { templateUrl: "views/yearly-rashi.tpl.html"}  
           }
       })
       .state('about',{ //about us page redirect
         url: "/about",
-        templateUrl : "scripts/templates/about.tpl.html"
+        templateUrl : "views/about.tpl.html"
       })
       .state('astrology',{ //astrology us page redirect
         url: "/astrology",
-        templateUrl : "scripts/templates/astrology.tpl.html"
+        templateUrl : "views/astrology.tpl.html"
       })
       .state('rashi',{ //rashi us page redirect
         url: "/rashi",
-        templateUrl : "scripts/templates/rashi.tpl.html"
+        templateUrl : "views/rashi.tpl.html"
       })
       .state('graha',{ //graha us page redirect
         url: "/graha",
-        templateUrl : "scripts/templates/graha.tpl.html"
+        templateUrl : "views/graha.tpl.html"
       })
       .state('rashifal',{ //rashifal us page redirect
         url: "/rashifal",
-        templateUrl : "scripts/templates/rashifal.tpl.html"
+        templateUrl : "views/rashifal.tpl.html"
       })
       .state('grahratna',{ //grahratna us page redirect
         url: "/grah-ratna",
-        templateUrl : "scripts/templates/grah-ratna.tpl.html"
+        templateUrl : "views/grah-ratna.tpl.html"
       })
       .state('rashiratna',{ //rashiratna us page redirect
         url: "/rashi-ratna",
-        templateUrl : "scripts/templates/rashi-ratna.tpl.html"
+        templateUrl : "views/rashi-ratna.tpl.html"
       })
       .state('grahnakshatra',{ //grahnakshatra us page redirect
         url: "/grah-nakshatra",
-        templateUrl : "scripts/templates/grah-nakshatra.tpl.html"
+        templateUrl : "views/grah-nakshatra.tpl.html"
       })
       .state('grahdasha',{ //grahdasha us page redirect
         url: "/grah-dasha",
-        templateUrl : "scripts/templates/grah-dasha.tpl.html"
+        templateUrl : "views/grah-dasha.tpl.html"
       })
       .state('vastu',{ //vastu us page redirect
         url: "/vastu",
-        templateUrl : "scripts/templates/vastu.tpl.html"
+        templateUrl : "views/vastu.tpl.html"
       })
       .state('shanisadesati',{ //shanisadesati us page redirect
         url: "/shani-sadesati",
-        templateUrl : "scripts/templates/shani-sadesati.tpl.html"
+        templateUrl : "views/shani-sadesati.tpl.html"
       })
-      
+      .state('photo',{ //shanisadesati us page redirect
+        url: "/photo",
+        templateUrl : "views/newtemp.tpl.html"
+      })
+    
    }
+
+
 
     

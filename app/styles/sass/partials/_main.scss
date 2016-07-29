@@ -160,15 +160,6 @@ h2{
 }
 
 
-.border-box{
-	border:#f2f2f2 solid 1px;
-	border-radius:2px;
-	padding: 6px;
-	p{
-		text-align:justify;
-		 padding: 0 2px;
-	}
-}
 .borderHeading
 {
 	border-bottom:3px #666 solid;
@@ -220,12 +211,7 @@ h2{
     }
 	
 }
-.yearly-rashi{
-	p{
-		padding:0 4px;
-		text-align: justify;
-	}
-}
+
 .mainHeading{
 	text-align: center;
 	p{
@@ -244,24 +230,24 @@ h2{
 		color:$menu-hover-color;
 	}
 	&:before{
-	font-family: 'Glyphicons Halflings';
-	content: "\e103";
-	padding-right:5px;
-	color:$menu-hover-color;
+		font-family: 'Glyphicons Halflings';
+		content: "\e103";
+		padding-right:5px;
+		color:$menu-hover-color;
 	}
 	&:after{
-	font-family: 'Glyphicons Halflings';
-	content: "\e103";
-	padding-left:5px;
-	color:$menu-hover-color;
-	background:#fff;
-	position: absolute;
-	 -ms-transform: rotate(270deg); /* IE 9 */
-    -ms-transform-origin: 55% 67%; /* IE 9 */
-    -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
-    -webkit-transform-origin: 55% 67%; /* Chrome, Safari, Opera */
-    transform: rotate(270deg);
-    transform-origin: 55% 67%;
+		font-family: 'Glyphicons Halflings';
+		content: "\e103";
+		padding-left:5px;
+		color:$menu-hover-color;
+		background:#fff;
+		position: absolute;
+		 -ms-transform: rotate(270deg); /* IE 9 */
+	    -ms-transform-origin: 55% 67%; /* IE 9 */
+	    -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
+	    -webkit-transform-origin: 55% 67%; /* Chrome, Safari, Opera */
+	    transform: rotate(270deg);
+	    transform-origin: 55% 67%;
 	}
 	}
 }
