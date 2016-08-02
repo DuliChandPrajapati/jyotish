@@ -101,12 +101,41 @@
 .rel {
     position: relative;
 }
-#carousel-reviewsone .glyphicon.glyphicon-chevron-left,#carousel-reviewsone .glyphicon.glyphicon-chevron-right {
-    top:188px !important;
+#carousel-reviewsone {   
+    font-family:$hindi-font;
+    .glyphicon{
+       .glyphicon-chevron-left{       
+            top:188px !important;
+        }   
+    } 
 }
+#carousel-reviewsone{
+
+    .glyphicon{
+        .glyphicon-chevron-right{
+            top:180px !important;
+        }
+    }
+    .block-text {
+        font-family:$hindi-font;
+        a{
+            color:#ff5733;
+        }
+        p{
+            font-family:$hindi-font;
+        }
+    }
+    .person-text{
+        i{
+            font-family:$hindi-font;
+        }
+    }
+} 
+
+
+
+
 #carousel-reviewstwo .left.carousel-control,#carousel-reviewstwo .right.carousel-control{
      top:17px !important;
 }
-.block-text a{
-    color:#ff5733;
-}
+

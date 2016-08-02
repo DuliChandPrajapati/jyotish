@@ -5,8 +5,10 @@
 }
 .nav-tabs {
 	> li{
+			font-family:$hindi-font;
 	.active{
 		background:$rashi-bg-color !important;
+
 	}
 		padding: 0 1px;
 		> a{
