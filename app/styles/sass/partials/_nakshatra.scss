@@ -2,6 +2,7 @@
 .border-box{
 	border:$rashi-bg-color solid 5px;
 	padding:0px;
+	margin-top:10px;
 	figcaption{
 		font-size:$font-rashi-sub;
 	}
@@ -15,6 +16,8 @@
 		line-height:18px;
 		padding:0 10px;
 		background:$background-color;
+		font-family:$hindi-font;
+		font-size:$font-heading-size;
 	}
 	.btn{
 		width: 100%;
