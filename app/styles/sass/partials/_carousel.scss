@@ -1,3 +1,4 @@
+
 #myCarousel{
     padding:20px 0;
     .carousel-control.left{
@@ -123,6 +124,8 @@
         }
         p{
             font-family:$hindi-font;
+            font-size:$font-large-size;
+            text-align:justify;
         }
     }
     .person-text{
@@ -132,10 +135,11 @@
     }
 } 
 
-
-
-
 #carousel-reviewstwo .left.carousel-control,#carousel-reviewstwo .right.carousel-control{
      top:17px !important;
+}
+
+.bal{
+    margin-top:20px;
 }
 
