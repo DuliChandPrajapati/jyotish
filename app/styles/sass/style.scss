@@ -16,24 +16,21 @@
 }*/
 @font-face {
     font-family: 'agra';
-    src: url('../fonts/agra-webfont.woff2') format('woff2'),
-         url('../fonts/agra-webfont.woff') format('woff'),
-         url('../fonts/agra-webfont.ttf') format('truetype'),
-         url('../fonts/agra-webfont.svg#agranormal') format('svg');
+    src: url('/bower_components/bootstrap-sass-official/assets/fonts/bootstrap/agra-webfont.woff2') format('woff2'),
+         url('/bower_components/bootstrap-sass-official/assets/fonts/bootstrap/agra-webfont.woff') format('woff'),
+         url('/bower_components/bootstrap-sass-official/assets/fonts/bootstrap/agra-webfont.ttf') format('truetype'),
+         url('/bower_components/bootstrap-sass-official/assets/fonts/bootstrap/agra-webfont.svg#agranormal') format('svg');
     font-weight: normal;
     font-style: normal;
 
 }
 
-
-
-
 @font-face {
     font-family: 'agra';
-    src: url('../fonts/agra-webfont.woff2') format('woff2'),
-         url('../fonts/agra-webfont.woff') format('woff'),
-         url('../fonts/agra-webfont.ttf') format('truetype'),
-         url('../fonts/agra-webfont.svg#agranormal') format('svg');
+    src: url('/bower_components/bootstrap-sass-official/assets/fonts/bootstrap/agra-webfont.woff2') format('woff2'),
+         url('/bower_components/bootstrap-sass-official/assets/fonts/bootstrap/agra-webfont.woff') format('woff'),
+         url('bower_components/bootstrap-sass-official/assets/fonts/bootstrap/agra-webfont.ttf') format('truetype'),
+         url('bower_components/bootstrap-sass-official/assets/fonts/bootstrap/agra-webfont.svg#agranormal') format('svg');
     font-weight: normal;
     font-style: normal;
 
