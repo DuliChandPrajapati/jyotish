@@ -2,7 +2,33 @@
 @media only screen and (max-width:767px) {
 	.top{
 		margin-top:10px;
+	}
+	.breadcrumb{
+		padding:15px 0px;
+	}
+	#carousel-reviewstwo .left.carousel-control, #carousel-reviewstwo .right.carousel-control{
+		top:30px;
 	}	
+}
+
+@media only screen and (max-width:550px) {
+	.daily-img{
+		height:170px;
+		&:hover{
+			border:none;
+		}
+	}
+	.daily-img figcaption{
+		top:30%;
+	}
+	.daily-img:hover .overlay{
+		height:170px;
+
+	}
+	.daily-img:hover .overlay .btn-info{
+		margin:-33px 0 0 -44px;
+	}
+
 }
 
 @media only screen and (max-width:480px) {
@@ -14,6 +40,11 @@
     			padding: 0 5px !important;
 			}
 		}
+	}
+}
+@media only screen and (max-width:440px) {
+	.daily-img:hover .overlay .btn-info{
+		margin:-33px 0 0 -55px;
 	}
 }
 @media only screen and (max-width:360px) {
