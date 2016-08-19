@@ -1,5 +1,5 @@
 .yearly-rashi{
-	border:$rashi-border-color solid 15px;
+	border:$rashi-border-color solid 2px;
 	padding:10px;
 	margin:10px 0;
 	background-color:$rashi-bg-color;
@@ -62,8 +62,6 @@
 	    left: 0;
 	    -webkit-animation-duration: 1s;
 	    animation-duration: 1s;*/
-
-	    border: $menu-hover-color solid 15px;
 	    content: "";
 	    border-image-source: initial;
 	    border-image-slice: initial;
@@ -71,9 +69,9 @@
 	    border-image-outset: initial;
 	    border-image-repeat: initial;
 	    animation-duration: 1s;
-	    border-width: 15px;
+	    border-width: 2px;
 	    border-style: solid;
-	    border-color: rgb(225, 225, 225);
+	    border-color: $menu-hover-color;
 	}
 	figcaption{
 		font-size: 24px;

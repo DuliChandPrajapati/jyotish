@@ -27,44 +27,36 @@
 	}
 }
 .daily-img{
-	background:$bg-color;
 	border:$rashi-border-color solid 2px;
-	background:#f9f9f9;
-	border:#f0f0f0 solid 3px;
-	width:100%;
-	height:250px;
-	margin:10px 0px;
-	/*border-radius:100%;*/
+	margin:12px 0px;
 	position:relative;
-
+	float: left;
+    padding: 10px 20px;
+    width: 100%;
+    text-align: center;
 	.btn-info{
 		display:none;
+		margin: 3% 28%;
 	}
 	&:hover{
-		border-radius:100%;
 		-moz-osx-font-smoothing: grayscale;
 	    -webkit-transition-duration: 0.3s;
 	    transition-duration: 1s;
-	    -webkit-transition-property: background, border-radius;
-	    transition-property: border-radius;
 	  	transition-timing-function: linear;
 	    text-transform: capitalize;
 		.overlay{
 		    background-color: $bg-color;
-		    height:250px;
-		    left:-3px;
 		    position: absolute;
-		    top:-3px;
-		    width:102%;
+		    top:0px;
+		    width:100%;
+		    margin:0 -20px;
+		    height:100%;
 		    z-index: 99999;
 		    border:#f0f0f0 solid 3px;
-
-		    border-radius:100%;
 			-moz-osx-font-smoothing: grayscale;
 		    -webkit-transition-duration: 0.3s;
 		    transition-duration: 1s;
 		    -webkit-transition-property: background, border-radius;
-		    transition-property: border-radius;
 		  	transition-timing-function: linear;
 		    text-transform: capitalize;
 
@@ -75,26 +67,21 @@
 			     background-color: #5bc0de;
 			    border-color: #46b8da;
 			    color: #fff;
-			    left:103px;
 			    position: absolute;
-			    top:103px;
 			    display:block;
-			    padding:8px;
-			    font-size:10px;
+			    padding:12px 15px;
+			   // margin:24%;
+			    border-radius:0;
 			}
 		}
 	}
 	img{
 		width: 100%;
-	    position: absolute;
 	    margin: 0px auto;
-	    height: 244px; 
 	}
 	figcaption{
 		color:$rashi-text-color;
-		/*border-top:2px solid $rashi-border-color;*/
-	    position: absolute;
-	    top:60%;
+	    bottom:10px;
 	    width:100%;
 	    text-align:center;
 	     text-transform: capitalize;

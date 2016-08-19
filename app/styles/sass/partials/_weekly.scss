@@ -2,9 +2,11 @@
 
 
 .rashi-hover{
-	border: 15px solid $rashi-border-color;
+	border: 2px solid $rashi-border-color;
 	background-color: $bg-color;
-   padding:30px 15px;
+   padding:30px 10px;
+   width:150px;
+   height:145px;
    border-radius:100%;
     margin:10px 0px;
     vertical-align: middle;
@@ -25,7 +27,7 @@
 			color:$rashi-text-color;
 			padding:31px 15px;
 			border-radius:0%;
-			margin:12px auto 0;
-			border:$rashi-bg-color 15px solid;
+			//margin:12px auto 0;
+			border:$rashi-bg-color 2px solid;
 		}	
 }
