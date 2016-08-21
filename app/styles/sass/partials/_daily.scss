@@ -27,12 +27,13 @@
 	}
 }
 .daily-img{
-	border:$rashi-border-color solid 2px;
+	//border:$rashi-border-color solid 2px;
 	margin:12px 0px;
 	position:relative;
 	float: left;
     padding: 10px 20px;
     width: 100%;
+    box-shadow: 0 0 5px 0 #2c2222;
     text-align: center;
 	.btn-info{
 		display:none;

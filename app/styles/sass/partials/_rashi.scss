@@ -1,8 +1,8 @@
 .yearly-rashi{
-	border:$rashi-border-color solid 2px;
+	//border:$rashi-border-color solid 2px;
 	padding:10px;
 	margin:10px 0;
-	background-color:$rashi-bg-color;
+	//background-color:$rashi-bg-color;
 	display: inline-block;
     vertical-align: middle;
     -webkit-transform: translateZ(0);
@@ -15,8 +15,8 @@
 	img{
 		border-radius:100%;
 		border-width:3px;
-		background-color:$bg-color;
-		border:$rashi-border-color solid 3px;
+		background-color:#666;
+		border:#666 solid 3px;
 	    vertical-align: middle;
 	    -webkit-transform: translateZ(0);
 	    transform: translateZ(0);
@@ -33,9 +33,9 @@
 		    right: 0;
 		    top: 0;
 		    bottom: 0;
-		    border-color: $menu-hover-color;
-		    border-style: solid;
-		    border-width:3px;
+		   // border-color: $menu-hover-color;
+		   // border-style: solid;
+		   // border-width:3px;
 		    -webkit-transition-property: border-width;
 		    transition-property: border-width;
 		    -webkit-transition-duration: 0.1s;
@@ -47,7 +47,6 @@
 	p{
 		padding:0 4px;
 		text-align: justify;
-		color:#fff;
 		font-size:$font-heading-size;
 		font-weight:bold;
 		line-height:22px;
@@ -69,14 +68,10 @@
 	    border-image-outset: initial;
 	    border-image-repeat: initial;
 	    animation-duration: 1s;
-	    border-width: 2px;
-	    border-style: solid;
-	    border-color: $menu-hover-color;
 	}
 	figcaption{
 		font-size: 24px;
-	    color:#e1e1e1;
-	    border-bottom: $bg-color solid 3px;
-	    background-color:$rashi-bg-color;
+	    border-bottom:#666 solid 3px;
+	   // background-color:$rashi-bg-color;
 	}
 }
