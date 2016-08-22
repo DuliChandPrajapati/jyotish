@@ -17,9 +17,9 @@ function config ($stateProvider,$urlRouterProvider,$locationProvider) {
            "home"         :     { templateUrl: "views/home.tpl.html"},
             "daily"       :     { templateUrl: "views/daily-rashi.tpl.html" },
             "crousal"     :     { templateUrl: "views/crousal-rashi.tpl.html"},
-            "weekly"      :     { templateUrl: "views/weekly-rashi.tpl.html"},
-            "planet"      :     { templateUrl: "views/planet.tpl.html" },
-            "yearly"      :     { templateUrl: "views/yearly-rashi.tpl.html"}  
+           // "weekly"      :     { templateUrl: "views/weekly-rashi.tpl.html"},
+            //"planet"      :     { templateUrl: "views/planet.tpl.html" },
+           // "yearly"      :     { templateUrl: "views/yearly-rashi.tpl.html"}  
           }
       })
       .state('about',{ //about us page redirect

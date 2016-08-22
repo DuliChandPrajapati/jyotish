@@ -37,7 +37,7 @@
     text-align: center;
 	.btn-info{
 		display:none;
-		margin: 3% 28%;
+		width:100%;
 	}
 	&:hover{
 		-moz-osx-font-smoothing: grayscale;
@@ -65,13 +65,12 @@
 		    	width:940px !important;
 		    }
 		    .btn-info {
-			     background-color: #5bc0de;
+			    background-color: #5bc0de;
 			    border-color: #46b8da;
 			    color: #fff;
 			    position: absolute;
 			    display:block;
-			    padding:12px 15px;
-			   // margin:24%;
+			    padding:8px 15px;
 			    border-radius:0;
 			}
 		}
@@ -81,7 +80,7 @@
 	    margin: 0px auto;
 	}
 	figcaption{
-		color:$rashi-text-color;
+		color:$bg-color;
 	    bottom:10px;
 	    width:100%;
 	    text-align:center;
@@ -89,7 +88,8 @@
 		p{
 			margin:2px 0px;
 			padding:2px 0px;
-			
+			font-size: 15px;
+    		font-weight: bold;
 		}
 		&:first-child{
 			font-size:$font-large-size;
