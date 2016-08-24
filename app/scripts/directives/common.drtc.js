@@ -4,14 +4,20 @@ angular.module('jyotishyApp.core', [])
   return {
     templateUrl: 'views/header.tpl.html'
   };
-})
-.directive('footer', function(){
+}).directive('footer', function(){
 	return{
 		templateUrl:'views/footer.tpl.html'
 	};
-})
-.directive('breadcrum', function(){
+}).directive('breadcrum', function(){
 	return{
 		templateUrl:'views/breadcrum.tpl.html'
+	};
+}).directive('aries', function(){
+	return{
+		templateUrl:'views/rashi/aries.tpl.html'
+	};
+}).directive('taurus', function(){
+	return{
+		templateUrl:'views/rashi/taurus.tpl.html'
 	};
 });

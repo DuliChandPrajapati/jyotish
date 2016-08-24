@@ -15,7 +15,7 @@ function config ($stateProvider,$urlRouterProvider,$locationProvider) {
           url: "/",
           views: {
            "home"         :     { templateUrl: "views/home.tpl.html"},
-            "daily"       :     { templateUrl: "views/daily-rashi.tpl.html" },
+            "daily"       :     { templateUrl: "views/rashi-yog.tpl.html" },
             "crousal"     :     { templateUrl: "views/crousal-rashi.tpl.html"},
            // "weekly"      :     { templateUrl: "views/weekly-rashi.tpl.html"},
             //"planet"      :     { templateUrl: "views/planet.tpl.html" },
